@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="main.js"></script>
+   <!--
+<link rel="stylesheet" href="style.css">
+   --> 
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0-alpha1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-L4HY4EXkWhs2+E7yfFBe+/AWPpHkSnP5q2j5/u38hwjyO3qVauw3rNH6agp1pOru" crossorigin="anonymous">
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0-alpha1/js/bootstrap.bundle.min.js" integrity="sha384-JsOm8OlJ78FQFyxFp2+2yL5Oa0JuJERg9qMh5IiS29iepJN+ry5qMZcgd+gbsFZb" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <h1>Biblioteca de libros</h1>
+
+    <div class="formulariolibrocontainer">
+        <form method="post" id="formulariolibro" class="row g-3">
+            <div class="col-md-6">
+                <label for="titulo" class="form-label">Título del libro</label>
+                <input type="text" name="titulo" id="titulo">
+            </div>
+            <div class="col-md-6">
+                <label for="autor" class="form-label">Autor</label>
+                <input type="text" name="autor" id="autor">
+            </div>
+            <div class="col-md-6">
+                <label for="editorial" class="form-label">Editorial</label>
+                <input type="text" name="editorial" id="editorial">
+            </div>
+            <div class="col-md-6">
+                <label for="categoria" class="form-label">Categoria</label>
+                <input type="text" name="categoria" id="categoria">
+            </div>
+            <div class="col-md-6">
+                <label for="fecha" class="form-label">Fecha de publicación</label>
+                <input type="date" name="fecha" id="fecha">
+            </div>
+
+            <div class="col-12">
+                <button type="submit" id="submit" name="submit" class="btn btn-primary">Enviar</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="tablalibros">
+        <table>
+            <tr>
+              <th>Titulo del libro</th>
+              <th>Autor</th>
+              <th>Editorial</th>
+              <th>Categoria</th>
+              <th>Fecha de publicación</th>
+            </tr>
+            <tr>
+            <tr id="registrotabla">
+
+            </tr>
+             
+          </table>
+    </div>
+</body>
+</html>
